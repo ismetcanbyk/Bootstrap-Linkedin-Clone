@@ -7,10 +7,6 @@
   z-index: 1;
 }
 
-.picture{
-  color: #70B5F9 !important;
-}
-
 .logo{
   margin-left: 175px;
 }
@@ -125,6 +121,9 @@ li {
 
 button.ref {
   color: white;
+  border: #eef3f8;
+  background-color: white;
+  margin-left: 12px !important;
 }
 
 button.ref:hover {
@@ -142,4 +141,13 @@ button.ref:hover {
   font-weight: bold;
   font-size: 14px;
   margin-left: 8px;
+}
+
+button.follow{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 1px solid #5f5f5f ;
+}
+
+button.follow:hover{
+  color: #5f5f5f;
 }
